@@ -1,0 +1,190 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A stunning sunset over the Maasai Mara savanna.",
+      "imageUrl": "/images/Home/mt.longonot.jpeg",
+      "imageHint": "savanna sunset"
+    },
+    {
+      "id": "card-hiking-1",
+      "description": "Tranquil lakes perfect for a weekend reset",
+      "imageUrl": "/images/Home/dynamic-slyder/weekend-getaways/weekend-getaway1.jpeg",
+      "imageHint": "waterfall forest"
+    },
+    {
+      "id": "card-hiking-2",
+      "description": "A view from the top of a mountain.",
+      "imageUrl": "/images/Home/dynamic-slyder/weekend-getaways/weekend-getaway2.jpeg",
+      "imageHint": "mountain view"
+    },
+    {
+      "id": "card-hiking-3",
+      "description": "People enjoying a sunny day by the lake.",
+      "imageUrl": "/images/Home/dynamic-slyder/weekend-getaways/weekend-getaway3.jpeg",
+      "imageHint": "people lake"
+    },
+    {
+      "id": "card-safari-1",
+      "description": "Thrilling off-road expeditions for the group",
+      "imageUrl": "/images/Home/dynamic-slyder/sato-for-the-boys/sato-for-the-boys1.jpeg",
+      "imageHint": "off-road trail"
+    },
+    {
+      "id": "card-safari-2",
+      "description": "A close-up of a lion resting in the grass.",
+      "imageUrl": "/images/Home/dynamic-slyder/sato-for-the-boys/sato-for-the-boys2.jpeg",
+      "imageHint": "lion closeup"
+    },
+    {
+      "id": "card-safari-3",
+      "description": "A safari vehicle in the savanna.",
+      "imageUrl": "/images/Home/dynamic-slyder/sato-for-the-boys/sato-for-the-boys3.jpeg",
+      "imageHint": "safari vehicle"
+    },
+    {
+      "id": "card-camping-1",
+      "description": "Premium experiences with special perks",
+      "imageUrl": "/images/Home/dynamic-slyder/jersey-edition/jersey-edition1.jpeg",
+      "imageHint": "tour bus"
+    },
+    {
+      "id": "card-camping-2",
+      "description": "A campfire burning brightly at a campsite.",
+      "imageUrl": "/images/Home/dynamic-slyder/jersey-edition/jersey-edition2.jpeg",
+      "imageHint": "campfire"
+    },
+    {
+      "id": "card-camping-3",
+      "description": "A group of people wearing jerseys.",
+      "imageUrl": "/images/Home/dynamic-slyder/jersey-edition/jersey-edition3.jpeg",
+      "imageHint": "team jerseys"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A herd of elephants walking across the plains.",
+      "imageUrl": "/images/Gallery/adventure1.jpeg",
+      "imageHint": "elephants herd"
+    },
+    {
+      "id": "gallery-2",
+      "description": "A vibrant Maasai warrior in traditional attire.",
+      "imageUrl": "/images/Gallery/adventure2.jpeg",
+      "imageHint": "maasai person"
+    },
+    {
+      "id": "gallery-3",
+      "description": "An acacia tree silhouetted against the setting sun.",
+      "imageUrl": "/images/Gallery/adventure3.jpeg",
+      "imageHint": "acacia tree"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A flock of flamingos in Lake Nakuru.",
+      "imageUrl": "/images/Gallery/adventure4.jpeg",
+      "imageHint": "flamingos lake"
+    },
+    {
+      "id": "gallery-5",
+      "description": "The rugged landscape of Hell's Gate National Park.",
+      "imageUrl": "/images/Gallery/adventure5.jpeg",
+      "imageHint": "canyon landscape"
+    },
+    {
+      "id": "gallery-6",
+      "description": "A cheetah scanning the horizon from a mound.",
+      "imageUrl": "/images/Gallery/adventure6.jpeg",
+      "imageHint": "cheetah savanna"
+    },
+    {
+      "id": "gallery-7",
+      "description": "A hot air balloon floating over the Maasai Mara.",
+      "imageUrl": "/images/About/hero.jpeg",
+      "imageHint": "hot-air balloon"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Zebras grazing peacefully in the grasslands.",
+      "imageUrl": "/images/Gallery/hero.jpeg",
+      "imageHint": "zebras grazing"
+    },
+     {
+      "id": "longonot-detail",
+      "description": "Panoramic view from the crater rim of Mt. Longonot.",
+      "imageUrl": "/images/Trips/longonot.jpg",
+      "imageHint": "mountain crater"
+    },
+    {
+      "id": "waterfall-detail",
+      "description": "A beautiful waterfall in a lush forest.",
+      "imageUrl": "/images/Trips/waterfall.jpg",
+      "imageHint": "waterfall"
+    },
+    {
+      "id": "samburu-detail",
+      "description": "Wildlife in Samburu National Reserve.",
+      "imageUrl": "/images/Trips/samburu.jpg",
+      "imageHint": "samburu wildlife"
+    },
+    {
+      "id": "trips-hero",
+      "description": "A view of a mountain range at sunset.",
+      "imageUrl": "/images/Trips/hero.jpeg",
+      "imageHint": "mountain sunset"
+    },
+    {
+      "id": "merch-tshirt",
+      "description": "A stylish t-shirt with a cool design.",
+      "imageUrl": "/images/Shop/Mt.longonot-Hike.png",
+      "imageHint": "t-shirt illustration"
+    },
+    {
+      "id": "merch-hoodie",
+      "description": "A cozy hoodie for your adventures.",
+      "imageUrl": "/images/Shop/hoodie.png",
+      "imageHint": "hoodie illustration"
+    },
+    {
+      "id": "merch-cap",
+      "description": "A cap to keep you cool and stylish.",
+      "imageUrl": "/images/Shop/Cap.png",
+      "imageHint": "cap illustration"
+    },
+    {
+      "id": "merch-big5",
+      "description": "Merchandise featuring the big five animals.",
+      "imageUrl": "/images/Shop/SHIRT.png",
+      "imageHint": "animal logo"
+    },
+    {
+      "id": "contact-hero",
+      "description": "The famous elephant tusks archway in Mombasa, Kenya.",
+      "imageUrl": "/images/Contact/hero.jpeg",
+      "imageHint": "Mombasa tusks"
+    },
+    {
+      "id": "about-hero",
+      "description": "A group of friends on an adventure.",
+      "imageUrl": "/images/About/hero.jpeg",
+      "imageHint": "friends adventure"
+    },
+    {
+      "id": "about-image-1",
+      "description": "Our team on a trip.",
+      "imageUrl": "/images/About/about1.jpeg",
+      "imageHint": "team trip"
+    },
+    {
+      "id": "about-image-2",
+      "description": "Enjoying the view.",
+      "imageUrl": "/images/About/about2.jpeg",
+      "imageHint": "mountain view"
+    },
+    {
+      "id": "upcoming-trip-image",
+      "description": "Upcoming trip promotion image.",
+      "imageUrl": "/images/Home/upcoming-trip.png",
+      "imageHint": "trip promo"
+    }
+  ]
+}
