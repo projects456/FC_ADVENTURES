@@ -91,15 +91,21 @@ export default function HeroSection() {
            <VideoPlayer onEnded={handleVideoEnd} videoSrc="/videos/Home/mt.longonot.mp4" />
         </div>
 
-        {/* Countdown and Button */}
-        <div className={cn(
-            "flex flex-col items-center gap-6 transition-opacity duration-1000 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[-50px]",
+        {/* Countdown and Book Your Spot Button */}
+        <div
+          className={cn(
+            "flex flex-col md:flex-row items-center gap-6 md:gap-8 transition-opacity duration-1000 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[-50px]",
             isVideoFinished ? "opacity-100" : "opacity-0 pointer-events-none"
-        )}>
-            <Countdown date={nextTripDate} />
-            <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold rounded-full text-lg px-8 py-6">
-                 <Link href="/trips/mount-longonot-hike">Book Now</Link>
-            </Button>
+          )}
+        >
+          <Countdown date={nextTripDate} />
+          <Button
+            size="lg"
+            asChild
+            className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold rounded-full text-lg px-8 py-6 md:ml-4"
+          >
+            <Link href="/trips/mount-longonot-hike">Book Your Spot</Link>
+          </Button>
         </div>
       </div>
     </section>

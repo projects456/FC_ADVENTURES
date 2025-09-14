@@ -40,7 +40,7 @@ export default function RootLayout({
         <main className="flex-grow animate-fade-in">{children}</main>
         <Footer />
         <Toaster />
-        <AudioPlayer src="/music/background-music.mp3" />
+  <AudioPlayer src="/music/bengicela.mp3" />
       </body>
     </html>
   );
