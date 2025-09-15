@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 import { navLinks } from '@/lib/data';
 import { useIsMobile } from '@/hooks/use-mobile';
-import { useScrollDirection } from '@/hooks/use-scroll-direction';
+// import { useScrollDirection } from '@/hooks/use-scroll-direction';
 import { Button } from '@/components/ui/button';
 import { Phone, X } from 'lucide-react';
 import Image from 'next/image';
@@ -16,17 +16,10 @@ import BookingForm from '../trips/booking-form';
 export default function Header() {
   const pathname = usePathname();
   const isMobile = useIsMobile();
-  const scrollDirection = useScrollDirection();
-  const [isVisible, setIsVisible] = useState(true);
+  // const scrollDirection = useScrollDirection();
   const [isBookingOpen, setIsBookingOpen] = useState(false);
 
-  useEffect(() => {
-    if (scrollDirection === 'down') {
-      setIsVisible(false);
-    } else if (scrollDirection === 'up') {
-      setIsVisible(true);
-    }
-  }, [scrollDirection]);
+
 
   const navClass = cn(
     'fixed w-full max-w-6xl left-1/2 -translate-x-1/2 z-50 transition-all duration-500',
@@ -36,7 +29,7 @@ export default function Header() {
     isMobile
       ? 'bottom-4 h-18 px-4 w-[calc(100%-2rem)]'
       : 'top-4 h-20 px-6',
-    isVisible ? 'translate-y-0 opacity-100' : (isMobile ? 'translate-y-28 opacity-0' : '-translate-y-28 opacity-0')
+    'translate-y-0 opacity-100'
   );
 
   const handleBookNowClick = () => {
